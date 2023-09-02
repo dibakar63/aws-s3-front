@@ -27,6 +27,10 @@
 .App-link {
   color: #61dafb;
 }
+.image{
+  height: 200px;
+  width: 200px;
+}
 
 @keyframes App-logo-spin {
   from {
@@ -35,4 +39,11 @@
   to {
     transform: rotate(360deg);
   }
+}
+.container{
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+}
+.row{
+  width: 30px;
 }
